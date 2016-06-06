@@ -337,6 +337,23 @@ header {
   margin-top: 30px;
 }
 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) { /* iPhone 6 Landscape */
+  header {
+      padding-top: 100px;
+  }
+  .custom-intro-text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    text-align: left;
+    margin-top: 10px;
+    width: 300px;
+    padding-bottom: 20px;
+  }
+}
+
 @media (min-width: 768px) {
     header {
         padding-top: 200px;

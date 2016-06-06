@@ -11,6 +11,10 @@
 	height: 870px;
 }
 
+.index-section-responsive {
+	height: 750px;
+}
+
 /* Clear floats of children */
 .cbp-so-section:before,
 .cbp-so-section:after {
@@ -125,6 +129,24 @@
 
 /* Example media queries */
 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) { /* iPhone 6 Landscape */
+	.custom-market-text {
+		font-size:17pt;
+	}
+	.responsive-container {
+		height: 600px;
+	}
+	.custom-market-header {
+		margin-top: 0px;
+	}
+	.index-section-responsive {
+		height: 870px;
+	}
+}
+
 @media screen and (max-width: 73.5em) {
 	.cbp-so-scroller {
 		font-size: 65%;
@@ -142,6 +164,15 @@
 
 @media only screen
 and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) { /* iPhone 5 Landscape */
+	.index-section-responsive {
+		height: 680px !important;
+	}
+}
+
+@media screen
+and (min-device-width : 320px)
 and (max-device-width : 568px) { /* iPhone 5 */
 	.center-content {
 		text-align: center;
@@ -155,6 +186,12 @@ and (max-device-width : 568px) { /* iPhone 5 */
 	}
 	.responsive-container {
 		height: 500px;
+	}
+	.index-section-responsive {
+		height: 880px;
+	}
+	.staycation-text-responsive {
+		font-size: 20pt;
 	}
 }
 
@@ -171,7 +208,7 @@ and (max-device-width : 568px) { /* iPhone 5 */
 	}
 	.cbp-so-section h2 {
 		margin: 0;
-		font-size: 35pt;
+		font-size: 30pt;
 	}
 	.cbp-so-side img {
 		/*display:none;*/
