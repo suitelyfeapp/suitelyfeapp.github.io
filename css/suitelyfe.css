@@ -395,7 +395,7 @@ and (orientation : landscape) { /* iPhone 6 Landscape */
 }
 
 .category {
-  display:list-inline;
+  display:inline-block;
 }
 
 .question {
