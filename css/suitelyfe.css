@@ -215,8 +215,8 @@ and (max-device-width : 568px) {  /* iPhone 5 */
       padding: 0px 0 !important;
   }
   .faq {
-    padding-left:50px !important;
-    padding-right:50px !important;
+    padding-left:30px !important;
+    padding-right:30px !important;
     padding-bottom: 30px;
   }
   .question {
@@ -231,8 +231,8 @@ and (max-device-width : 568px) {  /* iPhone 5 */
     padding: 0px 0 !important;
   }
   .faq {
-    padding-left:50px !important;
-    padding-right:50px !important;
+    padding-left:30px !important;
+    padding-right:30px !important;
     padding-bottom: 30px;
   }
   .question {
