@@ -351,7 +351,6 @@ header {
   }
   .footer-padding {
     padding-top: 50px;
-    padding-bottom: 50px;
     padding-left: 30px;
   }
 }
@@ -721,7 +720,6 @@ footer {
 }
 .footer-padding {
   padding-top: 50px;
-  padding-bottom: 50px;
   text-align:left;
 }
 .footer-logo-padding {

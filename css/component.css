@@ -152,7 +152,10 @@
 		font-size: 35pt;
 	}
 	.cbp-so-side img {
-		display:none;
+		/*display:none;*/
+	}
+	.cbp-so-side-right img {
+		display: none;
 	}
 }
 
