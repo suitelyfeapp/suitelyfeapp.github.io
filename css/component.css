@@ -7,6 +7,10 @@
 	margin-bottom: 15em;
 }
 
+.responsive-container {
+	height: 870px;
+}
+
 /* Clear floats of children */
 .cbp-so-section:before,
 .cbp-so-section:after {
@@ -133,6 +137,24 @@
 
 	.cbp-so-side img {
 		max-width: 80%;
+	}
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) { /* iPhone 5 */
+	.center-content {
+		text-align: center;
+		margin-left: auto;
+    margin-right: auto;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.custom-market-text {
+		padding: 0 0;
+	}
+	.responsive-container {
+		height: 500px;
 	}
 }
 

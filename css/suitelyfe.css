@@ -202,6 +202,22 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #fec503
 }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {  /* iPhone 5 */
+  .hotel-text {
+    font-size: 40pt !important;
+  }
+  .intro {
+      padding: 0px 0 !important;
+  }
+}
+
+@media (max-width : 667px) { /* iPhone 6, iPhone 6 Plus */
+  .intro {
+    padding: 0px 0 !important;
+  }
+}
 @media (min-width: 768px) {
     .navbar-default {
         background-color: black;
@@ -277,7 +293,7 @@ header {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/hotel-header-bg.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
