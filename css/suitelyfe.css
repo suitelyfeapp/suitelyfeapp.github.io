@@ -202,6 +202,9 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #fec503
 }
+.pb20 {
+  padding-bottom: 20px;
+}
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {  /* iPhone 5 */
@@ -211,11 +214,32 @@ and (max-device-width : 568px) {  /* iPhone 5 */
   .intro {
       padding: 0px 0 !important;
   }
+  .faq {
+    padding-left:50px !important;
+    padding-right:50px !important;
+    padding-bottom: 30px;
+  }
+  .question {
+    font-size:15pt !important;
+  }
+  .answer {
+    font-size:11pt !important;
+  }
 }
-
 @media (max-width : 667px) { /* iPhone 6, iPhone 6 Plus */
   .intro {
     padding: 0px 0 !important;
+  }
+  .faq {
+    padding-left:50px !important;
+    padding-right:50px !important;
+    padding-bottom: 30px;
+  }
+  .question {
+    font-size:15pt !important;
+  }
+  .answer {
+    font-size:11pt !important;
   }
 }
 @media (min-width: 768px) {
