@@ -216,7 +216,7 @@ and (max-device-width : 568px) {  /* iPhone 5 */
   }
   .faq {
     padding-left:30px !important;
-    padding-right:30px !important;
+    padding-right:40px !important;
     padding-bottom: 30px;
   }
   .question {
@@ -357,8 +357,8 @@ header {
   background:url(https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;
   width:165px;
   height:40px;
-  margin-left: 120px;
-  margin-top: 30px;
+  /*margin-left: 120px;
+  margin-top: 30px;*/
 }
 
 @media only screen
@@ -391,8 +391,6 @@ and (orientation : landscape) { /* iPhone 6 Landscape */
   .ios-download-button-img {
     width: 200px;
     float:left;
-    padding-left: 55px;
-    margin-left: 47px;
   }
   .custom-intro-heading {
     font-size:20pt;
