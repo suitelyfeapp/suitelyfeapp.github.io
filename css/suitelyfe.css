@@ -8,6 +8,32 @@ body {
 .text-primary {
     color: #fed136
 }
+.text-center {
+  text-align: center;
+}
+.text-pull-right {
+  text-align: right;
+}
+.SLF-yellow {
+  color: #ffdb4b;
+}
+.section-three-custom-header-text {
+  font-size: 30pt;
+  font-family: "Nexa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: light;
+  letter-spacing: 3px;
+}
+.section-three-custom-subheader-text {
+  font-family: "Nexa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: light;
+  /*letter-spacing: 2px;*/
+}
+.section-three-container {
+  background-color: #303030;
+  padding-top:30px;
+  padding-bottom: 30px;
+  color: white;
+}
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -359,6 +385,12 @@ header {
   height:40px;
   /*margin-left: 120px;
   margin-top: 30px;*/
+}
+.why-suitelyfe-section {
+  background:#303030;
+  padding-bottom:15px;
+  padding-top:15px;
+  padding-left:30px;
 }
 
 @media only screen

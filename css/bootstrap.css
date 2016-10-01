@@ -1627,6 +1627,10 @@ pre code {
   margin-left: -15px;
   display: inline-block;
 }
+.section-three-row {
+  display: block;
+  padding-bottom: 130px;
+}
 .section-two-row-hotel {
   padding-left: 35px;
   padding-bottom: 30px;
@@ -6275,6 +6279,7 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
+  margin: 0 auto;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
