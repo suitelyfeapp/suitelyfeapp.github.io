@@ -17,6 +17,9 @@ body {
 .SLF-yellow {
   color: #ffdb4b;
 }
+.value-icon-responsive {
+  width:100px;
+}
 .section-three-custom-header-text {
   font-size: 30pt;
   font-family: "Nexa", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -33,6 +36,7 @@ body {
   padding-top:30px;
   padding-bottom: 30px;
   color: white;
+  padding-left: 50px;
 }
 p {
     font-size: 14px;
@@ -250,6 +254,18 @@ and (max-device-width : 568px) {  /* iPhone 5 */
   }
   .answer {
     font-size:11pt !important;
+  }
+  .value-icon-responsive {
+    width:60px;
+    float:left;
+    padding-right: 10px;
+  }
+  .section-three-row {
+    display: block;
+    padding-bottom: 0px;
+  }
+  h1 {
+    font-size: 20pt;
   }
 }
 @media (max-width : 667px) { /* iPhone 6, iPhone 6 Plus */
@@ -659,6 +675,14 @@ section h3.section-subheading {
 .timeline .timeline-body>ul {
     margin-bottom: 0
 }
+@media(min-width: 320px) {
+  .doublephones-responsive {
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (min-width: 768px) {
     .timeline:before {
         left: 50%
@@ -688,6 +712,12 @@ section h3.section-subheading {
         float: right;
         text-align: left;
         padding: 0 30px 20px 20px
+    }
+    .doublephones-responsive {
+      width:60%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 }
 @media (min-width: 992px) {
