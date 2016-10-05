@@ -56,6 +56,35 @@ p.large {
   font-size:15pt;
   padding-left:28px;
 }
+.best-price-title {
+  color:#f7d463;
+}
+.best-price-subtitle {
+  color:#f7d463;
+  padding-bottom:20px;
+}
+.best-price-content {
+  color:white;
+  padding-left:250px;
+  padding-right:250px;
+  font-size: 11pt;
+  text-align: justify;
+}
+.best-price-content-title {
+  color:white;
+  padding-left:250px;
+  padding-right:250px;
+  font-weight: bold;
+  font-size:13pt;
+  text-align: justify;
+}
+.best-price-highlight {
+  background-color: #f7d463;
+}
+.indent {
+  padding-left: 300px;
+  /*padding-right: 300px;*/
+}
 a,
 a:hover,
 a:focus,
