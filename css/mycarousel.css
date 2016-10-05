@@ -4,42 +4,42 @@
   width:5%;
 }
 .item1 {
-    background:url(../img/carlton.png) no-repeat center center;
-    width:330px;
-    height:189px;
-}
-.item2{
-    background:url(../img/dresort.png) no-repeat center center;
-    width:330px;
-    height:189px;
-}
-.item3{
-    background:url(../img/fareast.png) no-repeat center center;
-    width:330px;
-    height:189px;
-}
-.item4{
-    background:url(../img/innotel.png) no-repeat center center;
-    width:330px;
-    height:189px;
-}
-.item5{
-    background:url(../img/kai.png) no-repeat center center;
-    width:330px;
-    height:189px;
-}
-.item6{
     background:url(../img/mandarin.png) no-repeat center center;
     width:330px;
     height:189px;
 }
-.item7{
+.item2{
+    background:url(../img/fareast.png) no-repeat center center;
+    width:330px;
+    height:189px;
+}
+.item3{
+    background:url(../img/carlton.png) no-repeat center center;
+    width:330px;
+    height:189px;
+}
+.item4{
+    background:url(../img/parkave.png) no-repeat center center;
+    width:330px;
+    height:189px;
+}
+.item5{
     background:url(../img/naumi.png) no-repeat center center;
     width:330px;
     height:189px;
 }
+.item6{
+    background:url(../img/innotel.png) no-repeat center center;
+    width:330px;
+    height:189px;
+}
+.item7{
+    background:url(../img/kai.png) no-repeat center center;
+    width:330px;
+    height:189px;
+}
 .item8{
-    background:url(../img/parkave.png) no-repeat center center;
+    background:url(../img/dresort.png) no-repeat center center;
     width:330px;
     height:189px;
 }
